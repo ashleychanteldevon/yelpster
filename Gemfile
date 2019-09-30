@@ -71,6 +71,7 @@ gem 'figaro'
 gem 'will_paginate', '~>3.1.0'
 gem 'carrierwave', '~> 1.0'
 gem 'fog-aws'
+gem 'fog',  '1.41'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
