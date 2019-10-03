@@ -1,12 +1,20 @@
 class PictureUploader < CarrierWave::Uploader::Base
+<<<<<<< HEAD
 
+=======
+>>>>>>> cb739f71bc7044129a0aa6c9fdb21e7f3c049805
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
+<<<<<<< HEAD
   storage :file
   # storage :fog
+=======
+  # storage :file
+  storage :fog
+>>>>>>> cb739f71bc7044129a0aa6c9fdb21e7f3c049805
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
@@ -45,5 +53,9 @@ class PictureUploader < CarrierWave::Uploader::Base
   # def filename
   #   "something.jpg" if original_filename
   # end
+<<<<<<< HEAD
 
 end
+=======
+end
+>>>>>>> cb739f71bc7044129a0aa6c9fdb21e7f3c049805
