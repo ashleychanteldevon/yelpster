@@ -269,7 +269,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   figaro
-  fog-aws (~> 3.5.2)
+  fog-aws
   font-awesome-rails
   geocoder
   jbuilder (~> 2.5)
@@ -295,4 +295,4 @@ RUBY VERSION
    ruby 2.5.3p105
 
 BUNDLED WITH
-   1.17.3
+   2.0.2
