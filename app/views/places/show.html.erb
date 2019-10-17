@@ -77,7 +77,7 @@
     <% @place.photos.each do |photo| %>
       <div class="col-12 col-sm-6">
         <blockquote class="photo-display">
-          <%= image_tag photo.picture.url, class: 'img-fluid' %>
+          <%= image_tag photo.picture.to_s, class: 'img-fluid' %>
           <p><% if photo.caption.present? %>
             <%= photo.caption %></p>
           <% end %>
